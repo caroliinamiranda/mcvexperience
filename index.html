@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiência MCV</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="slide.js" defer></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header class="headerclass"> 
+        <nav class="headerclass__menu">
+            <section class="headerclass__menu__link">
+                    <img class="brandtopmenu" src="./assets/portfolio_brand.png" alt="Brand Top Menu">
+                    <a class="headerclass__menu__link__name" href="#Conheça">Apresentação</a>
+                    <a class="headerclass__menu__link__name" target=_blank href="https://www.linkedin.com/in/carolinamiiranda/">Linkedin</a>
+            </section>
+            
+            <section class="flags">
+                <a href="french.html">
+                <img class="flags__item" src="./assets/flagfrance.png" alt="Flag of France"></a>
+                <a href="english.html">
+                <img class="flags__item" src="./assets/flagusa.png" alt="Flag of USA"></a>
+                <img class="flags__item" src="./assets/flagbrasil.png" alt="Flag of Brasil">
+            </section>
+        </nav>
+    </header> 
+    <main> 
+            
+            <section class="slider">
+                 <div class="slider__content">
+
+                     <input type="radio" name="btn-radio" id="radio1">
+                     <input type="radio" name="btn-radio" id="radio2">
+                     <input type="radio" name="btn-radio" id="radio3">
+                     <input type="radio" name="btn-radio" id="radio4">
+                     <input type="radio" name="btn-radio" id="radio5">
+
+                    
+                    <div class="slide__box__content primeiro">
+                        <div>
+                            <h1> Museu de Ciências da Vida</h1>
+                            <p class="slide__box__content__p"> Olá! Falarei um pouco sobre minhas atividades e tarefas no museu. Trabalhei como mediadora e na <span class="contrast">manutenção do acervo: limpeza e organização.</span></p>
+                            <p class="slide__box__content__p">Para realização deste trabalho fiz um curso que me proporcionou o conhecimento necessário para a prática Museal.</p>
+                         </div>
+                            <img class="mcvwork" src="./assets/mcv_carol1.png" alt="Atividades Museu">
+                    </div> 
+                    
+                    <div class="slide__box__content">
+                        <div>
+                            <p class="p__principal"> Limpeza de Acervo</p>
+                            <p class="slide__box__content__p"> Os espécimes são frágeis, muitos deles da área anatômica, portanto reais. Por esse motivo há todo um cuidado.</p>
+                            <p class="slide__box__content__p"> A limpeza é realizada com pincéis, escovas de cerdas finas e leves, e o <span class="contrast">EPI necessário,</span> como luvas e também máscaras se desejado.</p>
+                        </div>
+                            <img class="mcvwork" src="./assets/mcv_carol2.png" alt="Limpeza de Acervo">
+                    </div> 
+                       
+                    <div class="slide__box__content">
+                        <div>
+                            <p class="p__principal"> Mediação/Guia</p>
+                            <p class="slide__box__content__p"> Ser mediadora/guia é um trabalho muito enriquecedor, pois ao mesmo tempo que posso oferecer conhecimento também aprendo.</p>
+                            <p class="slide__box__content__p"> Apresentei as seções do museu para o público em geral, a <span class="contrast">Evolução Humana</span> foi a seção que mais me aprofundei.</p>
+                        </div>
+                            <img class="mcvwork" src="./assets/mcv_carol3.png" alt="Mediação de Seções">
+                    </div> 
+                       
+                    <div class="slide__box__content">
+                        <div>
+                            <p class="p__principal"> Plastinação</p>
+                            <p class="slide__box__content__p"> A principal peça do Museu de Ciências da Vida é o "Corpo Fascinante", também conhecido como "Fatiado". É propriedade do MCV e participa também de grandes exposições externas.</p>
+                            <p class="slide__box__content__p"> Além do Corpo Fascinante, 99% dos espécimes do Museu é conservado pela <span class="contrast">técnica da plastinação.</span></p>
+                        </div>
+                            <img class="mcvwork" src="./assets/mcv_carol4.png" alt="Técnica Plastinação">
+                    </div> 
+                       
+                    <div class="slide__box__content">
+                        <div>
+                            <p class="p__principal"> Área Anatômica</p>
+                            <p class="slide__box__content__p"> Essa área é composta por espécimes reais, conservados pela técnica da plastinação ou por formol.</p>
+                            <p class="slide__box__content__p"> Bastante <span class="contrast">utilizada para estudo,</span> por permitir a análise detalhada do corpo humano em suas diferentes fases.</p>
+                            </div>
+                            <img class="mcvwork" src="./assets/mcv_carol5.png" alt="Área Anatômica">
+                        </div> 
+                        
+                    <div class="nav-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+
+                    <div class="nav-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                    </div>
+
+                </div>
+            </section>
+              
+            <section class="presentation">
+                <div class="presentation__video"> 
+                    <video id="myVideo" poster="./assets/video_thumb.png" preload="auto" controls type="video/mp4" width="330px" height="auto">
+                        <source src="./assets/videos/video_museu_pt_site.mp4">
+                    </video>
+                </div>
+
+                <div class="presentation__text"> 
+                    <h2 class="h2" id="Conheça">Conheça um pouco mais</h2>    
+                    <p class="presentation__text__p">Sempre gostei muito de Museus e de História, por isso tenho essa área não apenas como um hobby, mas como minha segunda vertente de trabalho. Conto minha experiência com prazer e utilizo disso para o estudo das línguas, principalmente a francesa, a qual estou aprendendo.</p>
+                    <p class="presentation__text__p"> Minha experiência no Museu de Ciências da Vida aconteceu na mesma Universidade onde me formei em Comunicação Social. Aprendi e pude ensinar com muita satisfação o que tenho a oferecer de conhecimento.</p>
+                    <p class="presentation__text__p">Aqui apresento a vocês um pouquinho do que vivenciei e aprendi nesse maravilhoso Museu.</p>
+                </div>
+                </section>
+    </main>
+    <footer class="footerclass"> 
+        <p>© Desenvolvido por Carolina Miranda.</p>
+    </footer>
+</body>
+</html>
