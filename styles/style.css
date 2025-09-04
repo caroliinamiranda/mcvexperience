@@ -375,6 +375,7 @@ h1{
         padding: 3% 0%;
         background-color: #ebebeb;
         justify-content: center;
+        gap: 7%;
     }
     .flags__item{
         width: 7vw;
