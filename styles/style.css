@@ -347,7 +347,7 @@ h1{
 }
 /*MOBILE TABLET END*/
 
-/*MOBILE CELPHONE*/
+/*MOBILE CELLPHONE*/
 @media screen and (max-width: 768px){
     .headerclass__menu{
         width: 100%;
@@ -411,7 +411,7 @@ h1{
         width: 70vw;
     }
 }
-/*MOBILE CELPHONE END*/
+/*MOBILE CELLPHONE END*/
 
 
 
